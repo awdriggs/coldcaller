@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, Sans-serif;
+  background: linear-gradient(#2cb5e8, #1768AC)
+}
+h2 {
+  color: #03256C;
+  font-size: 3rem;
+}
+
+button,
+select {
+  background-color: #0CAADC;
+  color: #03256C;
+  border: 2px solid #03256C;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  min-width: 100px;
+  height: 50px;
+}
+
+button:focus,
+select:focus {
+  outline: none;
+}
+
+.result-wrapper {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.result h2 {
+  color: white;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.call-button-wrapper {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+#callon{
+  border: 0;
+  background-color: #03256c;
+  color: #fff;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
+}
