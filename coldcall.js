@@ -1,5 +1,4 @@
 //Create an array for each class
-//
 var BirdGroup = function(list) {
   this.unUsed = list;
   this.used = [];
@@ -33,15 +32,28 @@ var BirdGroup = function(list) {
   }
 }
 
-var heronsList = ['AZALEA', 'BEATRICE', 'CASEY', 'CRISTOPHER', 'DAHLIA', 'DANIEL', 'ELA', 'ELSA', 'FRAILY', 'IMRAN', 'JASMIJN', 'JASMINE', 'JIMMY', 'KACPER', 'KEIRA', 'LEO', 'LIVIA', 'MATEO', 'MATILDA', 'MATISSE', 'MICHAEL', 'MORGAN', 'NICOLA', 'PIERCE', 'SASHA', 'SHANNON', 'WILLA', 'WILLEM', 'ZIDAN']
-var finchesList = ['ALI', 'ALYSON', 'ANDERSON', 'ANGEL', 'BESS', 'DANIEL', 'ELIYAH', 'GABRIEL', 'GILLIAN', 'IAN', 'JAYDEN', 'JORDAN', 'LOLA', 'MAGGIE', 'MALEZIA', 'MARLEE', 'MAROOF', 'MATEO', 'MEHRAB', 'MELA', 'OLIVER', 'ROOS', 'RUPA', 'SAMUEL', 'THELMA', 'ZIGUAN']
-var warblersList = ['AIDAN', 'AIMEE', 'ALEXANDER', 'BENICIO', 'BRADY', 'BRANDON', 'BROOKE', 'CHARLES', 'ELIJAH', 'ELIZA', 'ELLA', 'EVELYN', 'FRANCES', 'GRACE', 'KENNY', 'LIDHIA', 'LILLIAN', 'MARCO', 'MARTINA', 'MATEEN', 'CADE', 'MELINA', 'MICHAEL', 'NAWFOL', 'NYKAI', 'OFRI', 'SCOTT', 'STELLA', 'THOR']
-var sparrowsList = ['AARON', 'ADRIAN', 'ALON', 'AVA', 'BRIANA', 'Brianna', 'ELIAN', 'ELIE', 'ELIZABETH', 'ELLI', 'ETHAN', 'EVAN', 'EVAN', 'ISHRAT', 'JADA', 'JASMINE', 'JOHN WILLIAM', 'JOSE', 'LUCAS', 'LUKA', 'LUKAS', 'MARGOT', 'MATTHEW', 'MAXWELL', 'NATHANIEL', 'NICOLAS', 'RHYLAN', 'SHANE', 'STACIE JAE']
+
+var cardinalsList = ['Edward','Elvin','Evan','Fatima','Hanna','Jackeline','Jacob','Judy','Katie','Keerthana','Luis','Maxine','Naimun','Nico','Oliver','Parker','Rachel','Ruby','Shyera','Sultan','Yerik','Yina','Zosia'];
+var egretsList = ['Adam','Adrian','Ailey','Caswell','Emma','Gisselle','Joanna','Kuba','Leo','Lizette','Lola','Marlo','Kahirul','Meerab','Milo','Nathan','Oliver','Olivia','Olivier','Ryder','Sama','Tymarie','Uba'];
+var oriolesList = ['Allisson','Ella','Erik','Hamid','Jayden','Jean-Michel','Kadin','Lia','Marin','Meirav','Mohammad','Nia','Nyra','Patlada','Rachel','Rhys','Scarlett','Stefan','Tachnin','Zack','Zoe']
+var swiftsList = ['Adrian','Anthony','Caleb','Charlotte W','Charlotte H','Daisy','Dania','Dashiell','Ethan','Ewan','Genesis','Henry','Isaiah','James P','James C','Jayleen','Jehan','Julien','Melissa','Milena','Mirna','Newt','Noah'];
+var wrensList = ['Abdullo','Ada','Anaiah','Angel','Charlotte','Darkell','David','Emilie','Henry','Jemma','Kian','Kris','Melody','Reid','Roland','Salvador','Shajid','Siam','Stella','Sumaiya','Violet'];
+var finchesList = ['Aiden','Ayan','Ayla','Aysha','Charles','Chloe','Edgar','Elliott','Emerson','Etta','Fameen','Giselle','Izabella','Jared','Julia','Kaitlyn','Malcolm','Melvin','Olive','Shanty','Tamara','Tilda','Tomas'];
+var heronsList =  ['Abraham','Alexa','Ben T','Ben H','Cesar','Devon','Elijah','Emmanuel','Fern','Hani','Henry','Laszlo','Lucy','Luke','Mae','Mashrur','Nia','Nushrath','Penelope','Riley','Robert','Rosario','Sakhiya'];
+var robinsList = ['Bari','Adrian','Artur','Audrey','Clara','Daniel','Delphine','Dilnura','Emily','Evan','Georgia','Jancarlos','Joshua','Julien','Lucas','Luis','Mae','Mark','Mia','Richard','Roan','Samuel','Sebastian'];
+var sparrowsList = ['Abeerah','Alasdair','Arber','Brielle','Caspia','Christopher','Emma','Ilsa','Isaac','Isaiah','Jaelyn','Jonah','Joshua','Julie','Lucian','Mokhina','Nikolas','Ophelia','Orlando','Rabah','Seamus','Tyler'];
+var warblersList = ['Aamaya','Abe','Adriana','Afnan','Akira','Ben','Bering','Eli','Emmanuella','Fariha','Farzona','Hudson','Jamel','Jasurbek','Jesse','Josephine','Julius','Kamola','London','Mason','Nayeli','Pedro'];
 
 var warblers = new BirdGroup(warblersList);
 var sparrows = new BirdGroup(sparrowsList);
 var herons = new BirdGroup(heronsList);
 var finches = new BirdGroup(finchesList);
+var robins = new BirdGroup(robinsList);
+var orioles = new BirdGroup(oriolesList);
+var wrens = new BirdGroup(wrensList);
+var swifts = new BirdGroup(swiftsList);
+var egrets = new BirdGroup(egretsList);
+var cardinals = new BirdGroup(cardinalsList); 
 
 var current;
 
@@ -58,6 +70,18 @@ document.getElementById('callon').addEventListener('click', function() {
     current = finches;
   } else if (bird == 'herons') {
     current = herons;
+  } else if (bird == 'robins') {
+    current = robins;
+  } else if (bird == 'cardinals') {
+    current = cardinals;
+  } else if (bird == 'egrets') {
+    current = egrets;
+  } else if (bird == 'orioles') {
+    current = orioles;
+  } else if (bird == 'swifts') {
+    current = swifts;
+  } else if (bird == 'wrens') {
+    current = wrens;
   } else alert('error');
 
   var name = current.getRandom();
