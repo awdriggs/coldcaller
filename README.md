@@ -42,4 +42,4 @@ I was trying to dismantle the characteristic of individualism.
 - Begin using the name randomizer at the beginning of the year.
 - Use the name caller for most share outs after turn and talks and 'low stakes' share outs.
 - Mix in with other EL discussion protocols.
-
+- Add accountable talk stems to the screen so that they are ever present.
