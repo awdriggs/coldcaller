@@ -17,10 +17,10 @@ I was trying to dismantle the characteristic of individualism.
 ### Impacts
 - Using "Turn and Talks" to prime students for responding. 
 - Giving prompts and asking for "saybacks" for low stakes share out.  
- - “I think…”
- - “I heard _____ say ____.”
- - “I agree/disagree with ____ because ____”
- - “Could ____ explain their thinking again?”
+  -  “I think…”
+  -  “I heard _____ say ____.”
+  -  “I agree/disagree with ____ because ____”
+  -  “Could ____ explain their thinking again?”
 
 ### Artifacts
 ![Name Caller](namecaller.gif)
@@ -28,7 +28,9 @@ I was trying to dismantle the characteristic of individualism.
 [Link to Name Caller](https://awdriggs.github.io/coldcaller/)
 ### What Students Say...
 > Keeps us on topic because we know we might be called
+
 > Try to think of an answer for each question.
+
 > Think faster
 
 ## Key Learnings
